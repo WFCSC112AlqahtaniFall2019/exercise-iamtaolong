@@ -1,11 +1,17 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 int main() {
 
     const int NUM_ELEMENTS = 8;   // Number of elements
-    int revVctr[8];               // User values
+   // int revVctr[8];               // User values
+    vector <int> revVctr(8);
+
+
+
     int i;                        // Loop index
+
 
     cout << "Enter " << NUM_ELEMENTS << " integer values..." << endl;
     for (i = 0; i < NUM_ELEMENTS; ++i) {
